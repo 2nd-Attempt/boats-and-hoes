@@ -4,7 +4,7 @@
 int main(){
 int i;
 
-//making a double data type index
+//creating a double data index and setting up the average function
 
 
 double average;
@@ -27,7 +27,6 @@ for(i=0; i<6; i++)
 //return 3 values?
 
 return 3;
-
 
 }
 //comments are god; neat and tutors love them
