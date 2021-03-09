@@ -4,16 +4,25 @@
 int main()
 {
 
+    // setting up arrays
+    
     int array2[4]={1,3,5,7};
     int loop2;
     int array[3]={11,8,4};
     int loop, smallest;
+    
+    //variable for storing array 1's index/smallest numbernfor comparison????
 
     smallest = array[0];
-
+    
+    //for statement on 20 sets conditions for requirements are met.
+    
     for(loop  = 0; loop < 3; loop++){
         if(smallest > array[loop])
             smallest = array[loop];}
+            
+           //smallest value found - from here on i dont understand past 27
+          
             printf(" Smallest value: %d ", smallest);
             for(loop2 = 0; loop2 < 4; loop2++){
                 if(smallest == array2[loop2])
