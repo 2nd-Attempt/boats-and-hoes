@@ -1,2 +1,19 @@
-hello world
-edd put your old q1 here we will tidy it up; if you have it
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+int i;
+double average;
+double sequence[6] = {57, 98, 23, 78, 46, -1};
+for(i=0; i<6; i++)
+{
+    if(sequence[i+2]==-1)
+        break;
+    average = (sequence[i]+ sequence[i+1]+sequence[i+2])/3;
+    printf("Average: %.1f\n", average);
+}
+
+return 3;
+
+
+}
