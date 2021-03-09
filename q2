@@ -11,7 +11,7 @@ int main()
     int array[3]={11,8,4};
     int loop, smallest;
     
-    //variable for storing array 1's index/smallest numbernfor comparison????
+    //variable for storing array 1's index/smallest numbern for comparison????
 
     smallest = array[0];
     
@@ -27,11 +27,10 @@ int main()
             for(loop2 = 0; loop2 < 4; loop2++){
                 if(smallest == array2[loop2])
 
-            if (smallest != array2[loop2]);
+            
             smallest = array[loop];
-
-
 
             }
 
   return 0;
+} //Close function body
